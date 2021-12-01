@@ -8,6 +8,8 @@ install_cleanup_trap
 
 apt-get update
 
+apt install --reinstall vlc -y
+
 apt-get -y upgrade
 
 apt-get -y install python3-pip
